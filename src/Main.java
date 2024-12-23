@@ -11,7 +11,7 @@ public class Main {
             if (op.equals("+")) {
                 add(a,b);
             } else if (op.equals("-")) {
-                extract(a,b);
+                subtract(a,b);
             } else if (op.equals("*")) {
 
                 multiply(a,b);
@@ -29,7 +29,7 @@ public class Main {
 
     }
 
-    public static void extract(int a, int b){
+    public static void subtract(int a, int b){
 
         System.out.println(a-b);
 
